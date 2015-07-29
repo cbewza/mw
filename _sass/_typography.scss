@@ -1,0 +1,284 @@
+/*
+
+dark purple #b61c5b
+pink #f72a7d
+
+*/
+
+body {
+	font-family: Lucida Grande, Helvetica Neue, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #797060;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-weight: normal; 
+	padding: 10px 0; 
+} 
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1.8em;
+	color: #222;
+}
+
+h4 {
+	font-size: 1.6em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+h6 {
+	font-size: 1.4em;
+}
+
+p {
+	padding: 0 0 20px 0;
+}
+
+.directory p {
+	padding: 0 0 10px 0;	
+}
+
+.current {
+	color: #ff4D00;
+}
+
+a {
+	color: #5b5345;
+}
+
+ahover {
+	color: #b61c5b;
+}
+
+li {
+	list-style: circle;
+}
+
+
+ MAIN MENU 
+
+
+ul#nav li a {
+	color: white;
+	text-decoration: none;
+	font-size: 1em;		
+    padding: 16px;
+    display: block;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px #b61c5b;
+}
+
+ LOGO 
+
+
+span#logo a {
+	float: left;
+	display: block;
+	overflow: hidden;
+	outline: none;
+	text-decoration: none;
+	color: white;
+	font-size: 1.6em;
+	line-height: 2.6em;
+	text-indent: 40px;
+	text-shadow: 0 1px 1px #b61c5b;
+}
+
+ HOME PAGE 
+
+
+.tagline1 {
+	position: absolute;
+	font-size: 1.2em;
+	margin: 55px 0 0 260px;
+	color: #797060;
+}
+
+.tagline2 {
+	position: absolute;
+	font-size: 3.8em;
+	margin: 85px 0 0 210px;
+	color: #b61c5b;
+	font-weight: 300; 
+  font-style: italic; 
+  font-family: Georgia, serif;
+}
+
+.tagline3 {
+	position: absolute;
+	font-size: 0.8em;
+	margin: 120px 0 0 310px;
+	color: #797060;
+}
+
+
+
+ MAIN CONTENT 
+
+
+section ul {
+	padding: 0 0 20px 0;	
+}
+
+.safe, .and, .comprehensive, .forpregnancy, .tofinda, .midwifein, .contactany, .listedhere, .choiceof, .hospitalbirth, .or, .homebirth, .allcosts, .covered, .byyour, .healthcare {
+	position: absolute;
+}
+
+.safe {
+	font-size: 2.2em;
+  color: #797060;
+  margin: 50px 0 0 140px;
+}
+
+.and {
+	font-size: 7em;
+  color: #b61c5b;
+  margin: 85px 0 0 80px; 
+  font-weight: 300; 
+  font-style: italic; 
+  font-family: Georgia, serif;
+}
+
+.comprehensive {
+	font-size: 2em;
+  color: #797060;
+  margin: 140px 0 0 50px;
+}
+
+.forpregnancy {
+	font-size: 1.2em; 
+  color: #797060;
+  margin: 170px 0 0 30px;	
+}
+
+aside span.tagline3 {
+	font-size: 0.9em;
+  color: #797060;
+}
+
+.tofinda {
+	font-size: 1.6em;
+  color: #797060;
+  margin: 60px 0 0 140px;	
+}
+
+.midwifein {
+	font-size: 2.6em;
+  color: #b61c5b;
+  margin: 85px 0 0 -70px; 
+  font-weight: 300; 
+  font-style: italic; 
+  font-family: Georgia, serif;	
+}
+
+.contactany {
+	font-size: 1.2em;
+  color: #797060;
+  margin: 120px 0 0 -50px;
+}
+
+.listedhere {
+	font-size: 1.2em;
+  color: #797060;
+  margin: 145px 0 0 30px;	
+}
+
+
+.choiceof {
+	font-size: 1.6em; 
+  color: #797060; 
+  margin: 55px 0 0 90px;	
+}
+
+.hospitalbirth {
+	font-size: 2em; 
+  color: #797060; 
+  margin: 85px 0 0 80px;	
+}
+
+.or {
+	font-size: 5em; 
+  color: #b61c5b;
+  margin: 115px 0 0 120px; 
+  font-weight: 300; 
+  font-style: italic; 
+  font-family: Georgia, serif;
+}
+
+.homebirth {
+	font-size: 2em;
+  color: #797060; 
+  margin: 155px 0 0 100px;
+}
+
+
+
+
+
+.allcosts {
+	font-size: 1.6em;
+  color: #797060; 
+  margin: 55px 0 0 70px;	
+}
+
+.covered {
+	font-size: 4em;
+  color: #b61c5b; 
+  margin: 85px 0 0 50px; 
+  font-weight: 300; 
+  font-style: italic; 
+  font-family: Georgia, serif;
+}
+
+.byyour {
+	font-size: 1.6em;
+  color: #797060;
+  margin: 125px 0 0 120px;
+}
+
+.healthcare {
+	font-size: 2em;
+  color: #797060; 
+  margin: 150px 0 0 100px;	
+}
+
+
+ FOOTER 
+
+
+#footer {
+	font-size: 0.8em;
+	color: #777;
+}
+
+ul#footer-col h6 {
+	padding: 0px 0 5px 0;
+	margin: 0px 0 5px 0; 
+	color: #777;
+	border-bottom: 1px #ddd;
+	border-bottom-style: double;
+	font-weight: normal;
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #777;
+}
+
+ul.footer-nav ahover {
+	color: #ff4d00;
+}
