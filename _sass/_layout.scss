@@ -1,91 +1,250 @@
-/**
- * Site header
- */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
+// START of layout.css from mw site 
+  
+.clear {
+	clear: both;
 }
 
-.site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
+.center {
+	text-align: center;
+}
+
+.left {
+	float: left;
+	margin: 0 10px 0px 0;
+}
+
+  
+#wrap {
+	width: 960px;
+	background-color: white;
+	margin: 0 auto;
+	-moz-box-shadow: 0px 0px 10px #dbc4db;
+	-webkit-box-shadow: 0px 0px 10px #dbc4db;
+	box-shadow: 0px 0px 10px #dbc4db;	
+}
+
+* { margin:0; padding:0; } 
+
+html, body, #wrap { height: 100%; }
+
+body > #wrap {height: auto; min-height: 100%;}
+
+#main { 
+	padding-bottom: 60px;	
+}  // must be same height as the footer 
+
+body {
+	background: #ffffff url(../images/body-bg.jpg) top center repeat-x;
+}
+  
+//**************************************************************************************** HEADER LAYOUT 
+
+
+#header {
+	width: 960px;
+	height: 4em;
+	margin: 0 auto;
+	background: #f72a7d;
+}
+
+//**************************************************** MAIN MENU 
+
+
+ul#nav {
+	float: right;
+	display: inline;
+	margin-left: 40px;
+	background: url(../images/menu-divider.png) bottom left repeat-x;
+	list-style: none;
+}
+
+ul#nav li {
+    display: inline;
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+    border-left: 1px solid #b61c5b;
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
+ul#nav li:hover {
+    background-color: #b61c5b;
 }
 
+ul#nav li a.current {
+    background-color: #b61c5b;
+}
+
+
+//**************************************************************************************** HOME PAGE
+
+
+#jumbotron {
+	width: 100%;
+	height: 308px;
+	background: url(../images/header-bg.png) top center repeat-x;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #b61c5b;	
+}
+
+a#find-button {
+	width: 407px;
+	height: 47px;
+	background: url(../images/find-button.png) top left no-repeat;
+	display: block;
+	text-indent: -8888px;
+	position: absolute;
+	margin-left: 490px;
+	margin-top: 190px;
+}
+
+a#find-button:hover {
+	background-position-y: -48px;
+}
+
+a#find-button:active {
+	background-position-y: -96px;
+	height: 48px;
+}
+
+
+
+//********************************************************************************* MAIN CONTENT 
+
+
+section {
+	display: inline;
+	width: 580px;
+	margin: 10px 40px;
+	float: left;
+}
+
+section li {
+	list-style-type: circle;
+	margin-left: 15px;
+}
+
+aside {
+	width: 280px;
+	float: left;
+	display: inline;
+}
+
+.img1 {
+	position: absolute;
+	margin: 240px 0 0 80px;
+}
+
+.img2 {
+	position: absolute;
+	margin: 320px 0 0 90px;
+}
+
+
+//**************************************************************************************** FOOTER 
+
+
+#footer {
+    position: relative;
+	margin-top: -60px;  //negative value of footer height 
+	height: 60px;
+	clear:both;
+	width: 980px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+//**************************************************************************************** FORM STYLE
+
+
+#mail-form label { 
+	display: inline-block; 
+	float: left; 
+	height: 26px; 
+	line-height: 26px; 
+	width: 100px;
+	font-weight: bold;
+	font-size: 0.9em;  
+}
+
+#mail-form input { 
+	width: 180px; 
+	margin: 0; 
+	padding: 3px; 
+	color: #666; 
+	background: #f7f7f7;
+	background-position: 0 -100px; 
+	border: 1px solid #fff; 
+	margin: 4px 0;  
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#mail-form input, textarea { 
+	width: 180px; 
+	margin: 0; 
+	padding: 5px; 
+	color: #444; 
+	background: #f7f7f7; 
+	border: 1px solid #ccc; 
+	margin: 4px 0;  
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#mail-form textarea { 
+	width: auto;
+}
+
+   
+#mail-form input:focus, textarea:focus, select:focus { 
+	border: 1px solid #999; 
+	background-color: #fff; 
+	color:#333; 
+}
+
+#mail-form input.submit { 
+	background: #f72a7d repeat-x;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 1em;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-box-shadow: 0 1px 3px #b61c5b;
+	-webkit-box-shadow: 0 1px 3px #b61c5b;
+	text-shadow: 0 -1px 1px #b61c5b;
+	border-bottom: 1px solid #b61c5b;
+	position: relative;
+	cursor: pointer;
+}
+
+#mail-form input.submit:hover { 
+	background-position: 0 -30px; 
+}
+
+#mail-form input.submit:active { 
+	background-position: 0 -60px; 
+}
+
+#mail-form input[type="submit"][disabled] { 
+	background:#888; 
+}
+
+#mail-form fieldset {
+	margin-top: 15px;
+	padding:0px; 
+	border: none;
+}
+
+#message-mail {
+	color: #f72a7d;
+}
+  
+ //end of layout.css from mw site
+  
 
 
 /**
@@ -101,38 +260,11 @@
     margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
+.footer-text {
     font-size: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -167,70 +299,4 @@
 
 .page-heading {
     font-size: 20px;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
-}
-
-
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
 }
