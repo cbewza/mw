@@ -34,9 +34,10 @@ body > #wrap {height: auto; min-height: 100%;}
 }  // must be same height as the footer 
 
 body {
-	background: #ffffff url(../images/body-bg.jpg) top center repeat-x;
+  background-image: url(../images/body-bg.jpg) #ffffff top center repeat-x,
 }
-  
+
+ 
 //**************************************************************************************** HEADER LAYOUT 
 
 
@@ -249,7 +250,7 @@ aside {
 
 /**
  * Site footer
- */
+*/
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
@@ -264,31 +265,8 @@ aside {
     font-size: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
+   // @extend %clearfix;
 }
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-
 
 /**
  * Page content
