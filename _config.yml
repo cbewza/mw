@@ -2,7 +2,7 @@
 title: Midwives in Vancouver
 #email: your-email@domain.com
 description: "Professionally trained and registered midwives in Vancouver BC"
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/mw" # the subpath of your site, e.g. /blog/
 url: "http://midwivesinvancouver.ca" # the base hostname & protocol for your site
 
 # Build settings
