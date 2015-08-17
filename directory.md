@@ -3,6 +3,14 @@ layout: page
 title: DIRECTORY
 permalink: /directory/
 ---
+
+<aside> 
+  <span class="tofinda tk-cronos-pro">To find a</span> 
+  <span class="midwifein tk-tamarillo">midwife in Vancouver,</span> 
+  <span class="contactany tk-cronos-pro">contact any of our department clinics</span> 
+  <span class="listedhere tk-cronos-pro">(listed here) directly.</span> 
+</aside>
+
 # Directory
 
 ## Birth &amp; Beyond: a Faculty Midwifery Service

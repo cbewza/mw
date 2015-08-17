@@ -4,6 +4,13 @@ title: FAQS
 permalink: /faqs/
 ---
 
+<aside>
+			<span class="allcosts tk-cronos-pro">All costs</span>
+			<span class="covered tk-tamarillo">covered</span>
+			<span class="byyour tk-cronos-pro">by</span>
+			<span class="healthcare tk-cronos-pro">BC MSP</span>
+</aside>
+
 #Frequently asked questions
 <ul>
 <li><a href="#1">Is midwifery care safe?</a></li>
