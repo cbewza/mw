@@ -4,6 +4,12 @@ title: LINKS
 permalink: /links/
 ---
 
+<aside>
+    <span class="safe">Safe</span> 
+    <span class="and">and</span> 
+    <span class="comprehensive">comprehensive care</span> 
+    <span class="forpregnancy tk-cronos-pro">for pregnancy, birth and postpartum</span>
+</aside>
 
 #Links
 
@@ -51,4 +57,3 @@ A Cognitive Behaviour Therapy-based self-management guide for women (1,719 KB)](
 
 [Doula Services Association of BC](http://www.bcdoulas.org/)
   
-Safe and comprehensive care for pregnancy, birth and postpartum

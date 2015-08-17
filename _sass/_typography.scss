@@ -67,20 +67,21 @@ li {
 }
 
 
- MAIN MENU 
+// MAIN MENU 
 
 
 ul#nav li a {
 	color: white;
 	text-decoration: none;
 	font-size: 1em;		
+  font-weight: bold;
   padding: 16px;
   display: block;
   text-transform: uppercase;
   text-shadow: 0 1px 1px #b61c5b;
 }
 
- LOGO 
+// LOGO 
 
 
 span#logo a {
@@ -90,26 +91,27 @@ span#logo a {
 	outline: none;
 	text-decoration: none;
 	color: white;
-	font-size: 1.6em;
-	line-height: 2.6em;
+	font-size: 1.3em;
+  font-weight: bold;
+	line-height: 52px;
 	text-indent: 40px;
 	text-shadow: 0 1px 1px #b61c5b;
 }
 
- HOME PAGE 
+// HOME PAGE 
 
 
 .tagline1 {
 	position: absolute;
 	font-size: 1.2em;
-	margin: 55px 0 0 260px;
+	margin: 55px 0 0 510px;
 	color: #797060;
 }
 
 .tagline2 {
 	position: absolute;
 	font-size: 3.8em;
-	margin: 85px 0 0 210px;
+	margin: 85px 0 0 460px;
 	color: #b61c5b;
 	font-weight: 300; 
   font-style: italic; 
@@ -119,13 +121,13 @@ span#logo a {
 .tagline3 {
 	position: absolute;
 	font-size: 0.8em;
-	margin: 120px 0 0 310px;
+	margin: 120px 0 0 560px;
 	color: #797060;
 }
 
 
 
- MAIN CONTENT 
+// MAIN CONTENT 
 
 
 section ul {
@@ -255,7 +257,7 @@ aside span.tagline3 {
 }
 
 
- FOOTER 
+// FOOTER 
 
 
 #footer {
